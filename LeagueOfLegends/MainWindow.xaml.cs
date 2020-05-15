@@ -64,22 +64,30 @@ namespace LeagueOfLegends
 
         private void BtnSkinStoreIcon_Click(object sender, RoutedEventArgs e)
         {
-
+            SkinStoreWindow skinStoreWindow = new SkinStoreWindow();
+            skinStoreWindow.Show();
+            this.Close();
         }
 
         private void BtnSkinStoreText_Click(object sender, RoutedEventArgs e)
         {
-
+            SkinStoreWindow skinStoreWindow = new SkinStoreWindow();
+            skinStoreWindow.Show();
+            this.Close();
         }
 
         private void BtnChampionStoreIcon_Click(object sender, RoutedEventArgs e)
         {
-
+            ChampionStoreWindow championStoreWindow = new ChampionStoreWindow();
+            championStoreWindow.Show();
+            this.Close();
         }
 
         private void BtnChampionStoreText_Click(object sender, RoutedEventArgs e)
         {
-
+            ChampionStoreWindow championStoreWindow = new ChampionStoreWindow();
+            championStoreWindow.Show();
+            this.Close();
         }
 
         private void BtnFreinsListIcon_Click(object sender, RoutedEventArgs e)
@@ -98,12 +106,16 @@ namespace LeagueOfLegends
 
         private void BtnPreBuildsIcon_Click(object sender, RoutedEventArgs e)
         {
-
+            PreBuildsWindow preBuildsWindow = new PreBuildsWindow();
+            preBuildsWindow.Show();
+            this.Close();
         }
 
         private void BtnBrebuildsText_Click(object sender, RoutedEventArgs e)
         {
-
+            PreBuildsWindow preBuildsWindow = new PreBuildsWindow();
+            preBuildsWindow.Show();
+            this.Close();
         }
 
         private void BtnMatchHistoryIcon_Click(object sender, RoutedEventArgs e)

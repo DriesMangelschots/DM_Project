@@ -55,60 +55,60 @@
                     <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Foreground="White">
                         <ListViewItem Height="75">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:Name="BtnHomeIcon" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Button x:Name="BtnHomeIcon" Click="BtnHomeIcon_Click" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
                                     <materialDesign:PackIcon HorizontalAlignment="Center" Background="{x:Null}" Kind="House" Foreground="White" Width="24" Height="25" RenderTransformOrigin="0.422,0.494"/>
                                 </Button>
-                                <Button x:Name="BtnHomeText" Content="Home" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
+                                <Button x:Name="BtnHomeText" Click="BtnHomeText_Click" Content="Home" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
                             </StackPanel>
                         </ListViewItem>
 
                         <!--Knop2-->
                         <ListViewItem Height="75">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:Name="BtnSkinStoreIcon" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Button x:Name="BtnSkinStoreIcon" Click="BtnSkinStoreIcon_Click" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
                                     <materialDesign:PackIcon HorizontalAlignment="Center" Background="{x:Null}" Kind="Wardrobe" Foreground="White" Width="24" Height="25" RenderTransformOrigin="0.422,0.494"/>
                                 </Button>
-                                <Button x:Name="BtnSkinStoreText" Content="Skin Store" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
+                                <Button x:Name="BtnSkinStoreText" Click="BtnSkinStoreText_Click" Content="Skin Store" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
                             </StackPanel>
                         </ListViewItem>
 
                         <!--Knop 3-->
                         <ListViewItem Height="75">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:Name="BtnChampionStoreIcon" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Button x:Name="BtnChampionStoreIcon" Click="BtnChampionStoreIcon_Click" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
                                     <materialDesign:PackIcon HorizontalAlignment="Center" Background="{x:Null}" Kind="man" Foreground="White" Width="24" Height="25" RenderTransformOrigin="0.422,0.494"/>
                                 </Button>
-                                <Button x:Name="BtnChampionStoreText" Content="Champion Store" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
+                                <Button x:Name="BtnChampionStoreText" Click="BtnChampionStoreText_Click" Content="Champion Store" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
                             </StackPanel>
                         </ListViewItem>
 
                         <!--Knop 4-->
                         <ListViewItem Height="75">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:Name="BtnFreinsListIcon" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Button x:Name="BtnFreinsListIcon" Click="BtnFreinsListIcon_Click" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
                                     <materialDesign:PackIcon HorizontalAlignment="Center" Background="{x:Null}" Kind="People" Foreground="White" Width="24" Height="25" RenderTransformOrigin="0.422,0.494"/>
                                 </Button>
-                                <Button x:Name="BtnFreindsText" Content="Freind List" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
+                                <Button x:Name="BtnFreindsText" Click="BtnFreindsText_Click" Content="Freind List" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
                             </StackPanel>
                         </ListViewItem>
 
                         <!--Knop5-->
                         <ListViewItem Height="75">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:Name="BtnPreBuildsIcon" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Button x:Name="BtnPreBuildsIcon" Click="BtnPreBuildsIcon_Click" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
                                     <materialDesign:PackIcon HorizontalAlignment="Center" Background="{x:Null}" Kind="Build" Foreground="White" Width="24" Height="25" RenderTransformOrigin="0.422,0.494"/>
                                 </Button>
-                                <Button x:Name="BtnBrebuildsText" Content="Pre Builds" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
+                                <Button x:Name="BtnBrebuildsText" Click="BtnBrebuildsText_Click" Content="Pre Builds" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
                             </StackPanel>
                         </ListViewItem>
 
                         <!--Knop6-->
                         <ListViewItem Height="75">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:Name="BtnMatchHistoryIcon" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <Button x:Name="BtnMatchHistoryIcon" Click="BtnMatchHistoryIcon_Click" Height="53" Width="53" Background="{x:Null}" BorderBrush="{x:Null}">
                                     <materialDesign:PackIcon HorizontalAlignment="Center" Background="{x:Null}" Kind="History" Foreground="White" Width="24" Height="25" RenderTransformOrigin="0.422,0.494"/>
                                 </Button>
-                                <Button x:Name="BtnMatchHistoryText" Content="Match History" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
+                                <Button x:Name="BtnMatchHistoryText" Click="BtnMatchHistoryText_Click" Content="Match History" Height="53" Width="139" Background="{x:Null}" BorderBrush="{x:Null}"/>
                             </StackPanel>
                         </ListViewItem>
                     </ListView>
@@ -126,9 +126,9 @@
 
                     <materialDesign:PopupBox Margin="10" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False">
                         <StackPanel Width="150">
-                            <Button Content="FAQ"/>
+                            <Button x:Name="BtnFaq" Content="FAQ" Click="BtnFaq_Click"/>
                             <Separator/>
-                            <Button x:Name="BtnLogOut" Content="Log Out" Click="BtnLogOut_Click"/>
+                            <Button x:Name="BtnLogOut" Click="BtnLogOut_Click" Content="Log Out" />
                         </StackPanel>
                     </materialDesign:PopupBox>
                 </StackPanel>

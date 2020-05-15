@@ -24,3 +24,5 @@ C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\obj\Debug\FriendsListWindow.g.cs
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\obj\Debug\FaqWindow.baml
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\obj\Debug\FriendsListWindow.baml
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\obj\Debug\SkinStoreWindow.g.cs
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\obj\Debug\SkinStoreWindow.baml

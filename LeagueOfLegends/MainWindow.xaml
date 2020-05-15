@@ -40,7 +40,7 @@
         <DockPanel>
             <Grid DockPanel.Dock="Left" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" x:Name="GridMenu" Width="60" HorizontalAlignment="Left" Background="#FF077410" Margin="0,0,0,0.4">
                 <StackPanel>
-                <!--Code Opmaak menu links-->
+                    <!--Code Opmaak menu links-->
                     <Grid Height="61" Background="#FF077410" RenderTransformOrigin="0.491,0.536">
                         <Button x:Name="BtnCloseMenu" Click="BtnCloseMenu_Click" Width="60" Height="60" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Right">
                             <materialDesign:PackIcon Foreground="White" Kind="ArrowLeft" Width="25" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right" />
@@ -50,7 +50,7 @@
                             <materialDesign:PackIcon Background="#FF077410" Foreground="White" Kind="Menu" Width="25" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right"/>
                         </Button>
                     </Grid>
-                <!--Code Voor menu links-->
+                    <!--Code Voor menu links-->
                     <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Foreground="White">
                         <!--Knop Home menu-->
                         <ListViewItem Height="75">
@@ -135,16 +135,16 @@
                     </materialDesign:PopupBox>
                 </StackPanel>
             </Grid>
-            
+
             <!--Code Home menu (Witte block)-->
             <Grid Background="White">
                 <!--ScrollViewer Background="White" Gaat ook-->
             </Grid>
-            
-            
-            
-            
-            
+
+
+
+
+
         </DockPanel>
     </Grid>
 </Window>
