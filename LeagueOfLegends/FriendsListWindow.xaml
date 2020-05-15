@@ -145,7 +145,7 @@
                         Foreground="White"/>
 
                         <!--De vriendenlijst-->
-
+                        <!--lettergroote nog aanpassen-->
                         <ListView>
 
                             <ListViewItem HorizontalAlignment="Stretch" Width="270">
