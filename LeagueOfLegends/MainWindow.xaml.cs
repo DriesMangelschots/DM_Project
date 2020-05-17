@@ -120,12 +120,16 @@ namespace LeagueOfLegends
 
         private void BtnMatchHistoryIcon_Click(object sender, RoutedEventArgs e)
         {
-
+            MatchHistoryWindow matchHistoryWindow = new MatchHistoryWindow();
+            matchHistoryWindow.Show();
+            this.Close();
         }
 
         private void BtnMatchHistoryText_Click(object sender, RoutedEventArgs e)
         {
-
+            MatchHistoryWindow matchHistoryWindow = new MatchHistoryWindow();
+            matchHistoryWindow.Show();
+            this.Close();
         }
 
         
