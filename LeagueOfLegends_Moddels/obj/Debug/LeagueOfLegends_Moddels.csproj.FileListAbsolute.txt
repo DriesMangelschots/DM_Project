@@ -4,3 +4,9 @@ C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends_Moddels\obj\Debug\LeagueOfLegends_Moddels.csproj.CoreCompileInputs.cache
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends_Moddels\obj\Debug\LeagueOfLegends_Moddels.dll
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends_Moddels\obj\Debug\LeagueOfLegends_Moddels.pdb
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends_Moddels\bin\Debug\LeagueOfLegends_Moddels.dll.config
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends_Moddels\bin\Debug\EntityFramework.dll
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends_Moddels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends_Moddels\bin\Debug\EntityFramework.xml
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends_Moddels\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends_Moddels\obj\Debug\LeagueOfLegends_Moddels.csproj.CopyComplete

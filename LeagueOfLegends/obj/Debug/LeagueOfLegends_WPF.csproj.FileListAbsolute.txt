@@ -34,3 +34,8 @@ C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\obj\Debug\PreBuildsWindow.g.cs
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\obj\Debug\MatchHistoryWindow.baml
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\obj\Debug\PreBuildsWindow.baml
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\EntityFramework.dll
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\LeagueOfLegends_Moddels.dll.config
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\EntityFramework.xml
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\EntityFramework.SqlServer.xml
