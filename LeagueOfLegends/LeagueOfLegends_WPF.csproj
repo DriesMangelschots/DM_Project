@@ -159,6 +159,17 @@
       <Name>LeagueOfLegends_Moddels</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Skins\evelynn-sugar-rush.jpg" />
+    <Resource Include="Skins\fiora-pulsefire.jpg" />
+    <Resource Include="Skins\gangplank-fpx.jpg" />
+    <Resource Include="Skins\leblanc-coven.jpg" />
+    <Resource Include="Skins\morgana-coven.jpg" />
+    <Resource Include="Skins\nami-splendid-staff.jpg" />
+    <Resource Include="Skins\rengar-guardian-of-the-sands.jpg" />
+    <Resource Include="Skins\tristana-pengu-cosplay.jpg" />
+    <Resource Include="Skins\yuumi-heartseeker.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.3.1.2\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.3.1.2\build\MaterialDesignThemes.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

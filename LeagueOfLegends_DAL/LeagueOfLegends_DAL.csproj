@@ -31,8 +31,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +50,95 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aankoop.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Champions.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Friendship.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gamemode.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Icons.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueOfLegendsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeagueOfLegendsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueOfLegendsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueOfLegendsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeagueOfLegendsModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Matchhistory.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Prijs.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Profiel.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Skins.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Speler.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spelersaccount.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spelers_champions.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spelers_Icons.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spelers_Skins.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Store.cs">
+      <DependentUpon>LeagueOfLegendsModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="LeagueOfLegendsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LeagueOfLegendsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="LeagueOfLegendsModel.edmx.diagram">
+      <DependentUpon>LeagueOfLegendsModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LeagueOfLegendsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LeagueOfLegendsModel.edmx</DependentUpon>
+      <LastGenOutput>LeagueOfLegendsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="LeagueOfLegendsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LeagueOfLegendsModel.edmx</DependentUpon>
+      <LastGenOutput>LeagueOfLegendsModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

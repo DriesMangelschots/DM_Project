@@ -141,15 +141,15 @@ namespace LeagueOfLegends
         {
             return new List<SkinStore>()
             {
-                new SkinStore("Product 1", 205.46, "/"),
-                new SkinStore("Product 2", 205.46, "/"),
-                new SkinStore("Product 3", 205.46, "/"),
-                new SkinStore("Product 4", 205.46, "/"),
-                new SkinStore("Product 5", 205.46, "/"),
-                new SkinStore("Product 6", 205.46, "/"),
-                new SkinStore("Product 7", 205.46, "/"),
-                new SkinStore("Product 8", 205.46, "/"),
-                new SkinStore("Product 9", 205.46, "/")
+                new SkinStore("Product 1", 205.46, "/Skins/evelynn-sugar-rush.jpg"),
+                new SkinStore("Product 2", 205.46, "/Skins/fiora-pulsefire.jpg"),
+                new SkinStore("Product 3", 205.46, "/Skins/gangplank-fpx.jpg"),
+                new SkinStore("Product 4", 205.46, "/Skins/leblanc-coven.jpg"),
+                new SkinStore("Product 5", 205.46, "/Skins/morgana-coven.jpg"),
+                new SkinStore("Product 6", 205.46, "/Skins/nami-splendid-staff.jpg"),
+                new SkinStore("Product 7", 205.46, "/Skins/rengar-guardian-of-the-sands.jpg"),
+                new SkinStore("Product 8", 205.46, "/Skins/tristana-pengu-cosplay.jpg"),
+                new SkinStore("Product 9", 205.46, "/Skins/yuumi-heartseeker.jpg")
             };
         }
     }
