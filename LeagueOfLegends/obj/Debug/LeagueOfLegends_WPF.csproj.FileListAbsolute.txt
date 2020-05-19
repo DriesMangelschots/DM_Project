@@ -39,3 +39,6 @@ C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\LeagueOfLegends_Moddels.dll.config
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\EntityFramework.xml
 C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\LeagueOfLegends_DAL.dll
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\LeagueOfLegends_DAL.pdb
+C:\Users\Mathias Tweepenninck\Desktop\Project Datamodelering\LeagueOfLegends_WPF\LeagueOfLegends\bin\Debug\LeagueOfLegends_DAL.dll.config

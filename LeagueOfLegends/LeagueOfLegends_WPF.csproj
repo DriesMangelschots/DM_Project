@@ -154,6 +154,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LeagueOfLegends_DAL\LeagueOfLegends_DAL.csproj">
+      <Project>{FDBB4755-1836-49E8-BDE9-CD10B5877043}</Project>
+      <Name>LeagueOfLegends_DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LeagueOfLegends_Moddels\LeagueOfLegends_Moddels.csproj">
       <Project>{BCD72E13-C814-4380-B9FE-92CF8DC73813}</Project>
       <Name>LeagueOfLegends_Moddels</Name>

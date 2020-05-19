@@ -20,9 +20,9 @@ namespace LeagueOfLegends_DAL
             this.Friendship = new HashSet<Friendship>();
             this.Friendship1 = new HashSet<Friendship>();
             this.Spelersaccount = new HashSet<Spelersaccount>();
-            this.Spelers_champions = new HashSet<Spelers_champions>();
-            this.Spelers_Icons = new HashSet<Spelers_Icons>();
-            this.Spelers_Skins = new HashSet<Spelers_Skins>();
+            this.Spelers_champions = new HashSet<Spelers_champion>();
+            this.Spelers_Icons = new HashSet<Spelers_Icon>();
+            this.Spelers_Skins = new HashSet<Spelers_Skin>();
         }
     
         public int id { get; set; }
@@ -44,10 +44,10 @@ namespace LeagueOfLegends_DAL
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Spelersaccount> Spelersaccount { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Spelers_champions> Spelers_champions { get; set; }
+        public virtual ICollection<Spelers_champion> Spelers_champions { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Spelers_Icons> Spelers_Icons { get; set; }
+        public virtual ICollection<Spelers_Icon> Spelers_Icons { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Spelers_Skins> Spelers_Skins { get; set; }
+        public virtual ICollection<Spelers_Skin> Spelers_Skins { get; set; }
     }
 }

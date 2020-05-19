@@ -18,9 +18,9 @@ namespace LeagueOfLegends_DAL
         public Store()
         {
             this.Aankoop = new HashSet<Aankoop>();
-            this.Icons = new HashSet<Icons>();
+            this.Icons = new HashSet<Icon>();
             this.Prijs = new HashSet<Prijs>();
-            this.Skins = new HashSet<Skins>();
+            this.Skins = new HashSet<Skin>();
         }
     
         public int id { get; set; }
@@ -29,10 +29,10 @@ namespace LeagueOfLegends_DAL
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Aankoop> Aankoop { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Icons> Icons { get; set; }
+        public virtual ICollection<Icon> Icons { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Prijs> Prijs { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Skins> Skins { get; set; }
+        public virtual ICollection<Skin> Skins { get; set; }
     }
 }

@@ -436,7 +436,7 @@
           <Property Name="StoreId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Store" Relationship="Self.FK_Aankoop_Store" FromRole="Aankoop" ToRole="Store" />
         </EntityType>
-        <EntityType Name="Champions">
+        <EntityType Name="Champion">
           <Key>
             <PropertyRef Name="id" />
           </Key>
@@ -467,7 +467,7 @@
           <NavigationProperty Name="Matchhistory" Relationship="Self.FK_Matchhistory_Gamemode" FromRole="Gamemode" ToRole="Matchhistory" />
           <NavigationProperty Name="Speler" Relationship="Self.FK_Speler_Gamemode" FromRole="Gamemode" ToRole="Speler" />
         </EntityType>
-        <EntityType Name="Icons">
+        <EntityType Name="Icon">
           <Key>
             <PropertyRef Name="id" />
           </Key>
@@ -513,7 +513,7 @@
           <Property Name="MasteryScore" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Speler" Relationship="Self.FK_Speler_Profiel" FromRole="Profiel" ToRole="Speler" />
         </EntityType>
-        <EntityType Name="Skins">
+        <EntityType Name="Skin">
           <Key>
             <PropertyRef Name="id" />
           </Key>
@@ -545,7 +545,7 @@
           <NavigationProperty Name="Spelers_Icons" Relationship="Self.FK_Spelers_Icons_Speler" FromRole="Speler" ToRole="Spelers_Icons" />
           <NavigationProperty Name="Spelers_Skins" Relationship="Self.FK_Spelers_Skins_Speler" FromRole="Speler" ToRole="Spelers_Skins" />
         </EntityType>
-        <EntityType Name="Spelers_champions">
+        <EntityType Name="Spelers_champion">
           <Key>
             <PropertyRef Name="id" />
           </Key>
@@ -558,7 +558,7 @@
           <NavigationProperty Name="Champions" Relationship="Self.FK_Spelers_champions_Champions" FromRole="Spelers_champions" ToRole="Champions" />
           <NavigationProperty Name="Speler" Relationship="Self.FK_Spelers_champions_Speler" FromRole="Spelers_champions" ToRole="Speler" />
         </EntityType>
-        <EntityType Name="Spelers_Icons">
+        <EntityType Name="Spelers_Icon">
           <Key>
             <PropertyRef Name="id" />
           </Key>
@@ -570,7 +570,7 @@
           <NavigationProperty Name="Icons" Relationship="Self.FK_Spelers_Icons_Icons" FromRole="Spelers_Icons" ToRole="Icons" />
           <NavigationProperty Name="Speler" Relationship="Self.FK_Spelers_Icons_Speler" FromRole="Spelers_Icons" ToRole="Speler" />
         </EntityType>
-        <EntityType Name="Spelers_Skins">
+        <EntityType Name="Spelers_Skin">
           <Key>
             <PropertyRef Name="id" />
           </Key>
@@ -618,8 +618,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Spelers_champions_Champions">
-          <End Role="Champions" Type="Self.Champions" Multiplicity="0..1" />
-          <End Role="Spelers_champions" Type="Self.Spelers_champions" Multiplicity="*" />
+          <End Role="Champions" Type="Data_r0704742Model.Champion" Multiplicity="0..1" />
+          <End Role="Spelers_champions" Type="Data_r0704742Model.Spelers_champion" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Champions">
               <PropertyRef Name="id" />
@@ -679,7 +679,7 @@
         </Association>
         <Association Name="FK_Icons_Store">
           <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
-          <End Role="Icons" Type="Self.Icons" Multiplicity="*" />
+          <End Role="Icons" Type="Data_r0704742Model.Icon" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Store">
               <PropertyRef Name="id" />
@@ -690,8 +690,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Spelers_Icons_Icons">
-          <End Role="Icons" Type="Self.Icons" Multiplicity="0..1" />
-          <End Role="Spelers_Icons" Type="Self.Spelers_Icons" Multiplicity="*" />
+          <End Role="Icons" Type="Data_r0704742Model.Icon" Multiplicity="0..1" />
+          <End Role="Spelers_Icons" Type="Data_r0704742Model.Spelers_Icon" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Icons">
               <PropertyRef Name="id" />
@@ -727,7 +727,7 @@
         </Association>
         <Association Name="FK_Skins_Store">
           <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
-          <End Role="Skins" Type="Self.Skins" Multiplicity="*" />
+          <End Role="Skins" Type="Data_r0704742Model.Skin" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Store">
               <PropertyRef Name="id" />
@@ -738,8 +738,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Spelers_Skins_Skins">
-          <End Role="Skins" Type="Self.Skins" Multiplicity="0..1" />
-          <End Role="Spelers_Skins" Type="Self.Spelers_Skins" Multiplicity="*" />
+          <End Role="Skins" Type="Data_r0704742Model.Skin" Multiplicity="0..1" />
+          <End Role="Spelers_Skins" Type="Data_r0704742Model.Spelers_Skin" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Skins">
               <PropertyRef Name="id" />
@@ -763,7 +763,7 @@
         </Association>
         <Association Name="FK_Spelers_champions_Speler">
           <End Role="Speler" Type="Self.Speler" Multiplicity="0..1" />
-          <End Role="Spelers_champions" Type="Self.Spelers_champions" Multiplicity="*" />
+          <End Role="Spelers_champions" Type="Data_r0704742Model.Spelers_champion" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Speler">
               <PropertyRef Name="id" />
@@ -775,7 +775,7 @@
         </Association>
         <Association Name="FK_Spelers_Icons_Speler">
           <End Role="Speler" Type="Self.Speler" Multiplicity="0..1" />
-          <End Role="Spelers_Icons" Type="Self.Spelers_Icons" Multiplicity="*" />
+          <End Role="Spelers_Icons" Type="Data_r0704742Model.Spelers_Icon" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Speler">
               <PropertyRef Name="id" />
@@ -787,7 +787,7 @@
         </Association>
         <Association Name="FK_Spelers_Skins_Speler">
           <End Role="Speler" Type="Self.Speler" Multiplicity="0..1" />
-          <End Role="Spelers_Skins" Type="Self.Spelers_Skins" Multiplicity="*" />
+          <End Role="Spelers_Skins" Type="Data_r0704742Model.Spelers_Skin" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Speler">
               <PropertyRef Name="id" />
@@ -799,18 +799,18 @@
         </Association>
         <EntityContainer Name="Data_r0704742Entities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Aankoop" EntityType="Self.Aankoop" />
-          <EntitySet Name="Champions" EntityType="Self.Champions" />
+          <EntitySet Name="Champions" EntityType="Data_r0704742Model.Champion" />
           <EntitySet Name="Friendship" EntityType="Self.Friendship" />
           <EntitySet Name="Gamemode" EntityType="Self.Gamemode" />
-          <EntitySet Name="Icons" EntityType="Self.Icons" />
+          <EntitySet Name="Icons" EntityType="Data_r0704742Model.Icon" />
           <EntitySet Name="Matchhistory" EntityType="Self.Matchhistory" />
           <EntitySet Name="Prijs" EntityType="Self.Prijs" />
           <EntitySet Name="Profiel" EntityType="Self.Profiel" />
-          <EntitySet Name="Skins" EntityType="Self.Skins" />
+          <EntitySet Name="Skins" EntityType="Data_r0704742Model.Skin" />
           <EntitySet Name="Speler" EntityType="Self.Speler" />
-          <EntitySet Name="Spelers_champions" EntityType="Self.Spelers_champions" />
-          <EntitySet Name="Spelers_Icons" EntityType="Self.Spelers_Icons" />
-          <EntitySet Name="Spelers_Skins" EntityType="Self.Spelers_Skins" />
+          <EntitySet Name="Spelers_champions" EntityType="Data_r0704742Model.Spelers_champion" />
+          <EntitySet Name="Spelers_Icons" EntityType="Data_r0704742Model.Spelers_Icon" />
+          <EntitySet Name="Spelers_Skins" EntityType="Data_r0704742Model.Spelers_Skin" />
           <EntitySet Name="Spelersaccount" EntityType="Self.Spelersaccount" />
           <EntitySet Name="Store" EntityType="Self.Store" />
           <AssociationSet Name="FK_Aankoop_Store" Association="Self.FK_Aankoop_Store">
@@ -893,7 +893,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Champions">
-            <EntityTypeMapping TypeName="Data_r0704742Model.Champions">
+            <EntityTypeMapping TypeName="Data_r0704742Model.Champion">
               <MappingFragment StoreEntitySet="Champions">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="Naam" ColumnName="Naam" />
@@ -922,7 +922,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Icons">
-            <EntityTypeMapping TypeName="Data_r0704742Model.Icons">
+            <EntityTypeMapping TypeName="Data_r0704742Model.Icon">
               <MappingFragment StoreEntitySet="Icons">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="Naam" ColumnName="Naam" />
@@ -967,7 +967,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Skins">
-            <EntityTypeMapping TypeName="Data_r0704742Model.Skins">
+            <EntityTypeMapping TypeName="Data_r0704742Model.Skin">
               <MappingFragment StoreEntitySet="Skins">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="Naam" ColumnName="Naam" />
@@ -991,7 +991,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Spelers_champions">
-            <EntityTypeMapping TypeName="Data_r0704742Model.Spelers_champions">
+            <EntityTypeMapping TypeName="Data_r0704742Model.Spelers_champion">
               <MappingFragment StoreEntitySet="Spelers_champions">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="Naam" ColumnName="Naam" />
@@ -1003,7 +1003,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Spelers_Icons">
-            <EntityTypeMapping TypeName="Data_r0704742Model.Spelers_Icons">
+            <EntityTypeMapping TypeName="Data_r0704742Model.Spelers_Icon">
               <MappingFragment StoreEntitySet="Spelers_Icons">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="Naam" ColumnName="Naam" />
@@ -1014,7 +1014,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Spelers_Skins">
-            <EntityTypeMapping TypeName="Data_r0704742Model.Spelers_Skins">
+            <EntityTypeMapping TypeName="Data_r0704742Model.Spelers_Skin">
               <MappingFragment StoreEntitySet="Spelers_Skins">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="Naam" ColumnName="Naam" />

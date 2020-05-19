@@ -152,5 +152,10 @@ namespace LeagueOfLegends
                 new SkinStore("Product 9", 205.46, "/Skins/yuumi-heartseeker.jpg")
             };
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

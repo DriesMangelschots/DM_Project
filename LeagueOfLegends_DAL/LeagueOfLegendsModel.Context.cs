@@ -26,18 +26,18 @@ namespace LeagueOfLegends_DAL
         }
     
         public virtual DbSet<Aankoop> Aankoop { get; set; }
-        public virtual DbSet<Champions> Champions { get; set; }
+        public virtual DbSet<Champion> Champions { get; set; }
         public virtual DbSet<Friendship> Friendship { get; set; }
         public virtual DbSet<Gamemode> Gamemode { get; set; }
-        public virtual DbSet<Icons> Icons { get; set; }
+        public virtual DbSet<Icon> Icons { get; set; }
         public virtual DbSet<Matchhistory> Matchhistory { get; set; }
         public virtual DbSet<Prijs> Prijs { get; set; }
         public virtual DbSet<Profiel> Profiel { get; set; }
-        public virtual DbSet<Skins> Skins { get; set; }
+        public virtual DbSet<Skin> Skins { get; set; }
         public virtual DbSet<Speler> Speler { get; set; }
-        public virtual DbSet<Spelers_champions> Spelers_champions { get; set; }
-        public virtual DbSet<Spelers_Icons> Spelers_Icons { get; set; }
-        public virtual DbSet<Spelers_Skins> Spelers_Skins { get; set; }
+        public virtual DbSet<Spelers_champion> Spelers_champions { get; set; }
+        public virtual DbSet<Spelers_Icon> Spelers_Icons { get; set; }
+        public virtual DbSet<Spelers_Skin> Spelers_Skins { get; set; }
         public virtual DbSet<Spelersaccount> Spelersaccount { get; set; }
         public virtual DbSet<Store> Store { get; set; }
     }

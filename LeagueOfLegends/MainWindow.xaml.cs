@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeagueOfLegends_DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -132,8 +133,6 @@ namespace LeagueOfLegends
             this.Close();
         }
 
-        
-
-        
+       
     }
 }

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:LeagueOfLegends"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="FriendsListWindow" Height="620" Width="600" WindowStartupLocation="CenterScreen">
+        Title="FriendsListWindow" Height="620" Width="600" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Window.Resources>
         <!--Animatie uitschiuven menu-->
         <Storyboard x:Key="KeyMenuOpen">
