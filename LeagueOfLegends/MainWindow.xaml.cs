@@ -133,6 +133,11 @@ namespace LeagueOfLegends
             this.Close();
         }
 
-       
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            dataGridFreindList.ItemsSource = DatabaseOperations.OphalenFriendList();
+        }
+
+      
     }
 }

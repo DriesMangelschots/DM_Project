@@ -138,9 +138,13 @@
 
             <!--Code Home menu (Witte block)-->
             <!--TEST-->
-            <Grid Background="White">
-                <!--Bij dataGrid is geen achtergrond nodig-->
-            </Grid>
+            <DataGrid x:Name="dataGridFreindList" AutoGenerateColumns="False" Background="White"
+                      Margin="5" IsReadOnly="True" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding naam}" Header="name"/>
+                    <DataGridTextColumn Binding="{Binding Friendid}" Header="Friend nummer"/>
+                </DataGrid.Columns>
+            </DataGrid>
 
 
 
